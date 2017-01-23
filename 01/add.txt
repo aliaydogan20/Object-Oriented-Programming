@@ -1,0 +1,13 @@
+MOV R1 , 10  ; R1 registerı 10 dan geri gidecek 
+MOV R2 ,1   ; R2 registerı 1 den 10 a kadar sayilari tutuyor 
+ADD R5 ,R2  ; R5 register toplam kaydediliyor
+PRN R5     ; Toplam bastirilir.   
+ADD R2,1   ; R2 artirilir.
+MOV R3,R2  ; R3 registeri kare alma icin R2 yi R5 e kendisi kadar ekler.
+SUB R1,1   ; R1 azaltilir, 0 olana kadar 
+JMP R1,13  ; Eger 0 sa 1 den 10 a kadar sayilarin kareleri toplanmistir.
+ADD R5,R2  ; Toplama sayi eklenir.
+SUB R3,1   ; R3 azaltilir.	
+JMP R3,4   ; R3, 0 sa R5 e R2 nin karesi de eklenmistir.
+JMP 9      ; 
+HLT 
