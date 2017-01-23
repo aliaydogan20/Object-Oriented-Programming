@@ -1,1 +1,11 @@
-We designed this homework as a continuation of the first homework(HW01). We added memory instructions to the CPU Program. 
+
+
+	Bu ödevde HW1 de yaptiğimiz CPU muza yeni fonksiyonlar ve instructionlar 
+	ekleyerek sorting algoritması gerçekleştirdik. sort.png dosyasinda görüldüğü
+	gibi 50 tane memory adresslerinin değerleri gösterilmiştir. İlk 10 deger siralanmasi gereken sayilari,
+	10-19 arasi siralanmis memory adreslerinin degerlerini göstermektedir. sort.txt de siralanmanin nasil yapildiği
+	yorumlarda anlatilmiştir. Register degerleri sürekli değişim göstermektedir. 
+	
+	SUB ile cıkarma yapilarak 0 dan kucuk degerler JPN instruction ile karsilastirma yapılarak 
+	gidilmesi gereken satirlara gönderme yapmaktadir.
+

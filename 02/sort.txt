@@ -1,0 +1,171 @@
+MOV #0,30  ;ilk sayi
+MOV #1,23  ;2. sayi
+MOV #2,4   ;3. sayi
+MOV #3,56  ;4. sayi  
+MOV #4,34  ;5. sayi
+MOV #5,58  ;6. sayi
+MOV #6,89  ;7. sayi 
+MOV #7,32  ;8. sayi
+MOV #8,45  ;9. sayi
+MOV #9,25  ;10. sayi
+MOV R1,#0  ;ilk sayi isleme sokulur.Diger sayilarla karsilastirilacak.  
+MOV R5,1   
+ADD R4,1   
+JMP 42     
+MOV R1,#1  ;2. sayi isleme sokulur.Diger sayilarla karsilastirilacak. 
+ADD R4,1
+JMP 42
+MOV R1,#2  ;3. sayi isleme sokulur.Diger sayilarla karsilastirilacak. 
+ADD R4,1
+JMP 42
+MOV R1,#3  ;4. sayi isleme sokulur.Diger sayilarla karsilastirilacak. 
+ADD R4,1
+JMP 42
+MOV R1,#4  ;5. sayi isleme sokulur.Diger sayilarla karsilastirilacak. 
+ADD R4,1
+JMP 42
+MOV R1,#5  ;6. sayi isleme sokulur.Diger sayilarla karsilastirilacak. 
+ADD R4,1
+JMP 42
+MOV R1,#6  ;7. sayi isleme sokulur.Diger sayilarla karsilastirilacak. 
+ADD R4,1
+JMP 42
+MOV R1,#7   ;8. sayi isleme sokulur.Diger sayilarla karsilastirilacak. 
+ADD R4,1
+JMP 42
+MOV R1,#8  ;9. sayi isleme sokulur.Diger sayilarla karsilastirilacak. 
+ADD R4,1
+JMP 42
+MOV R1,#9 ;10. sayi isleme sokulur.Diger sayilarla karsilastirilacak. 
+ADD R4,1
+JMP 42     
+MOV R2,#0 ; karsilastirma
+MOV R3,R1
+SUB R3,R2
+JPN R3,47
+ADD R5,1  ; index belirleme buyuk indexler ileri atilacak
+MOV R2,#1
+MOV R3,R1
+SUB R3,R2
+JPN R3,52
+ADD R5,1  ; index belirleme buyuk indexler ileri atilacak
+MOV R2,#2
+MOV R3,R1
+SUB R3,R2
+JPN R3,57
+ADD R5,1 ; index belirleme buyuk indexler ileri atilacak
+MOV R2,#3
+MOV R3,R1
+SUB R3,R2
+JPN R3,62
+ADD R5,1 ; index belirleme buyuk indexler ileri atilacak
+MOV R2,#4
+MOV R3,R1
+SUB R3,R2
+JPN R3,67
+ADD R5,1 ; index belirleme buyuk indexler ileri atilacak
+MOV R2,#5
+MOV R3,R1
+SUB R3,R2
+JPN R3,72
+ADD R5,1 ; index belirleme buyuk indexler ileri atilacak
+MOV R2,#6
+MOV R3,R1
+SUB R3,R2
+JPN R3,77
+ADD R5,1 ; index belirleme buyuk indexler ileri atilacak
+MOV R2,#7
+MOV R3,R1
+SUB R3,R2
+JPN R3,82
+ADD R5,1    ; index belirleme buyuk indexler ileri atilacak
+MOV R2,#8
+MOV R3,R1
+SUB R3,R2
+JPN R3,87
+ADD R5,1    ; index belirleme buyuk indexler ileri atilacak
+MOV R2,#9
+MOV R3,R1
+SUB R3,R2
+JPN R3,92
+ADD R5,1    ; index belirleme buyuk indexler ileri atilacak
+SUB R5,1
+JMP R5,112  ; eger R5 degeri 0 sa ilk indexe yukle 
+SUB R5,1
+JMP R5,115  ; eger R5 degeri 1 sa ilk indexe yukle 
+SUB R5,1
+JMP R5,118  ; eger R5 degeri 2 sa ilk indexe yukle 
+SUB R5,1
+JMP R5,121  ; eger R5 degeri 3 sa ilk indexe yukle 
+SUB R5,1
+JMP R5,124  ; eger R5 degeri 4 sa ilk indexe yukle 
+SUB R5,1
+JMP R5,127  ; eger R5 degeri 5 sa ilk indexe yukle 
+SUB R5,1
+JMP R5,130  ; eger R5 degeri 6 sa ilk indexe yukle 
+SUB R5,1
+JMP R5,133  ; eger R5 degeri 7 sa ilk indexe yukle 
+SUB R5,1
+JMP R5,136  ; eger R5 degeri 8 sa ilk indexe yukle 
+SUB R5,1
+JMP R5,139  ; eger R5 degeri 9 sa ilk indexe yukle 
+MOV #10,R1 ; atamalar  
+MOV R5,1 
+JMP 142
+MOV #11,R1 ; atamalar
+MOV R5,1
+JMP 142
+MOV #12,R1 ; atamalar
+MOV R5,1
+JMP 142
+MOV #13,R1 ; atamalar
+MOV R5,1
+JMP 142
+MOV #14,R1 ; atamalar
+MOV R5,1
+JMP 142
+MOV #15,R1 ; atamalar
+MOV R5,1
+JMP 142
+MOV #16,R1 ; atamalar
+MOV R5,1
+JMP 142
+MOV #17,R1 ; atamalar
+MOV R5,1
+JMP 142
+MOV #18,R1 ; atamalar
+MOV R5,1
+JMP 142
+MOV #19,R1 ; atamalar
+MOV R5,1
+JMP 142
+MOV R3,R4  
+SUB R3,1
+JPN R3,15 ; R3 kucuk veya esitse 15. satira git
+SUB R3,1
+JPN R3,18 ; R3 kucuk veya esitse 18. satira git 
+SUB R3,1
+JPN R3,21 ; R3 kucuk veya esitse 21. satira git
+SUB R3,1
+JPN R3,24 ; R3 kucuk veya esitse 24. satira git
+SUB R3,1
+JPN R3,27 ; R3 kucuk veya esitse 27. satira git
+SUB R3,1
+JPN R3,30 ; R3 kucuk veya esitse 30. satira git  
+SUB R3,1
+JPN R3,33 ; R3 kucuk veya esitse 33. satira git
+SUB R3,1
+JPN R3,36  ; R3 kucuk veya esitse 36. satira git
+SUB R3,1
+JPN R3,39 ; R3 kucuk veya esitse 39. satira git
+PRN #10
+PRN #11
+PRN #12
+PRN #13
+PRN #14
+PRN #15
+PRN #16
+PRN #17
+PRN #18
+PRN #19
+HLT
