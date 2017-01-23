@@ -1,0 +1,6 @@
+all: 
+	g++ -c Memory.cpp CPU.cpp CPUProgram.cpp Computer.cpp myMain.cpp 
+	g++ CPUProgram.o Memory.o CPU.o Computer.o myMain.o -o myCpu
+	./myCpu add.txt 1
+clean:
+	rm *.o myCpu
