@@ -1,0 +1,11 @@
+
+
+	Bu ödevde 3. ödevden farklı olarak 2. ödevdeki JPN instructionları ve memory addresleri ile çalışma eklenmiştir.
+	Bu sebeple Memory ve Computer class'ları eklenmistir.
+	2. ödevde yazmış olduğum sort.txt içerisindeki kodum yeni yazdığımız Computer class'ının execute fonksiyonu ile test edilmiştir.
+	İlk 10 memory adresinde siralanmamis sayilar vardir. 11-20 arasinda sirali sayilar vardir.
+	3 farklı option olup ilk option(0)'da sadece print fonksiyonu çalışmaktadır.	 
+	2. optionda(1) registerlar ve program counter yazdirilmistir.
+	3. optionda(2) memory adreslerinin içerikleri yazdirilmistir.
+	Main fonksiyonunda Testler yapilmistir.
+	
